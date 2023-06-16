@@ -16,7 +16,7 @@ def disk_test():
     if 'PASSED' in test_output_2:
         second_disk_status = f'{secon_disk} named disk is working \U0001F607 '
     else:
-        secons_disk_status = f'{secon_disk} named disk is not working \U0001F620'
+        second_disk_status = f'{secon_disk} named disk is not working \U0001F620'
 
     data =      {
         'disk1': first_disk_status,
